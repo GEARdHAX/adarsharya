@@ -146,8 +146,20 @@
             line-height: 1.4;
             box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
             /* added shadow */
+            word-wrap: break-word;
+    overflow-wrap: break-word;
         }
-
+        .message li {
+    margin-bottom: 8px;
+}
+.message ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: disc;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
         /* AI messages (left side) */
         .ai-message {
             color: white;
