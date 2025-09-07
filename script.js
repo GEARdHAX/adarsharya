@@ -36,7 +36,7 @@ function close() {
 
 const dynamicText = document.getElementById("dynamic-text");
 const cursor = document.querySelector(".cursor");
-const words = [" Developer", " Programmer", " Entrepreneur"];
+const words = [" Developer", " Programmer", " Freelancer"];
 const colors = ["#37ff8b"];
 
 let charIndex = 0;

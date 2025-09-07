@@ -1,5 +1,7 @@
+
+
 ::-webkit-scrollbar {
- width: 5px;
+ width: 5px !important;
 }
 
 /* Track */
@@ -27,13 +29,8 @@ body {
 }
 
 * {
+ -webkit-tap-highlight-color: transparent;
  /* border: 1px solid red; */
--webkit-tap-highlight-color: transparent;
- -webkit-tap-highlight-color: transparent; /* transparent with keyword */
--webkit-tap-highlight-color: rgba(0,0,0,0); /* transparent with rgba */
--webkit-tap-highlight-color: hsla(0,0,0,0); /* transparent with hsla */
--webkit-tap-highlight-color: #00000000; /* transparent with hex with alpha */
--webkit-tap-highlight-color: #0000; /* transparent with short hex with alpha */
  box-sizing: border-box;
  margin: 0px;
  padding: 0px;
