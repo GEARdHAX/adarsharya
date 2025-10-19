@@ -3,6 +3,7 @@
 	"age": 19,
 	"location": "Bangalore, India",
 	"title": "MERN Stack Developer | Aspiring ML Engineer",
+	"summary": "Full Stack MERN Developer with experience in React.js, Node.js, Express.js, MongoDB, and Next.js. Skilled in ML using scikit-learn, Flask, and Streamlit. Experienced in IoT with Arduino/ESP32 and creative video editing using Adobe Premiere Pro & After Effects. Currently learning System Design for scalable applications.",
 	"contact": {
 		"phone": "+91 73629 73003",
 		"email": "adarsharya2911@gmail.com",
@@ -13,7 +14,9 @@
 		"resume/CV": [
 			{
 				"Video Editing": "https://drive.google.com/file/d/1piEv1UBQ4qyA8zIdOzkwv0FucJ-c3aaL/view?usp=sharing",
-				"Development/Tech/IT": "https://drive.google.com/file/d/1fbE-7cD0Mkz1RGx1YnQ4P7Zt1C5HVg8B/view?usp=sharing"
+				"Development/Tech/IT": "https://drive.google.com/file/d/1fbE-7cD0Mkz1RGx1YnQ4P7Zt1C5HVg8B/view?usp=sharing",
+				"Vault of Codes Offer Letter": "https://drive.google.com/file/d/1oKIDFrUTnJxbmoU-YyQpAUKyuxdWScQC/view?usp=sharing",
+				"Edunet Foundation Certificate": "https://drive.google.com/file/d/181xqyU0Kmqt65vDR-irm1Rn5v9pM0sHj/view?usp=sharing"
 			}
 		]
 	},
@@ -27,14 +30,16 @@
 			"Node.js",
 			"Express.js",
 			"Flask",
-			"Streamlit"
+			"Streamlit",
+			"Next.js"
 		],
 		"databases": ["MongoDB", "MySQL"],
 		"web_app_development": [
 			"MERN Stack",
 			"REST APIs",
 			"Responsive UI (Tailwind CSS, Figma)",
-			"Firebase Authentication"
+			"Firebase Authentication",
+			"WebSockets"
 		],
 		"ai_ml_tools": [
 			"scikit-learn",
@@ -63,7 +68,8 @@
 			"PyCharm",
 			"MongoDB Compass",
 			"Render",
-			"MongoDB Atlas"
+			"MongoDB Atlas",
+			"Figma"
 		]
 	},
 	"education": {
@@ -102,11 +108,17 @@
 	"projects": [
 		{
 			"name": "Smart Electric Meter using Machine Learning",
-			"description": "Web app using Python, Flask, Streamlit with ML models to predict appliance electricity usage and estimate bills in real time."
+			"description": "Web app using Python, Flask, Streamlit with ML models to predict appliance electricity usage and estimate bills in real time.",
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/smart_electric_meter"
+			}
 		},
 		{
 			"name": "Foodora – Recipe Search App",
-			"description": "Responsive recipe app with dynamic sidebar, favorites via localStorage, vegetarian filter, using Spoonacular API, React Router, Tailwind CSS."
+			"description": "Responsive recipe app with dynamic sidebar, favorites via localStorage, vegetarian filter, using Spoonacular API, React Router, Tailwind CSS.",
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/foodora"
+			}
 		},
 		{
 			"name": "IoT-based Automatic Irrigation System & Automatic Door Locking System",
@@ -122,9 +134,33 @@
 		},
 		{
 			"name": "Notebook App with Google OAuth & MongoDB Atlas",
-			"description": "Secure MERN-based note-taking app with Google OAuth, JWT auth, and OTP login. Real-time note management, deployed on Render."
+			"description": "Secure MERN-based note-taking app with Google OAuth, JWT auth, and OTP login. Real-time note management, deployed on Render.",
+			"links": {
+				"Deployed": "https://notebookappoauth-1.onrender.com/"
+			}
+		},
+		{
+			"name": "CropGenie - AI Farming Assistant",
+			"description": "AI solution for real-time pest and disease detection using a YOLOv8 model, supported by a Python/Flask backend for crop health analysis and intelligent farming suggestions.",
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/cropgenie"
+			}
+		},
+		{
+			"name": "Tantra - End-to-End IoT Smart Farming System",
+			"description": "End-to-end IoT system using Arduino/ESP8266 for farm automation. Engineered a Node.js backend with WebSockets to stream live sensor data to a React dashboard for automated irrigation control.",
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/tantra"
+			}
 		}
 	],
+	"links": {
+		"Smart Electric Meter (GitHub)": "https://github.com/GEARdHAX/smart_electric_meter",
+		"Foodora (GitHub)": "https://github.com/GEARdHAX/foodora",
+		"CropGenie (GitHub)": "https://github.com/GEARdHAX/cropgenie",
+		"Tantra (GitHub)": "https://github.com/GEARdHAX/tantra",
+		"Notebook App (Deployed)": "https://notebookappoauth-1.onrender.com/"
+	},
 	"safety_responses": [
 		{
 			"type": "vulgar",
@@ -147,7 +183,7 @@
 			"html": "<p>😎 Nice try Diddy, but I'm here to talk about Adarsh's epic portfolio, not your trolling skills.</p>"
 		},
 		{
-			"type": "private info such as Relationship, Family & Friends, Secrets, Personal Preferences, income etc...",
+			"type": "private info such as GF/BF Relationship, Family & Friends, Secrets, Personal Preferences, income etc...",
 			"text": "🤫 Sshhhhhh… you’re not close enough yet… get a little closer to know more about me 😏… 👉 Until then, feel free to explore my professional achievements, skills, and projects! 🚀",
 			"html": "<p>🤫 Sshhhhhh… you’re not close enough yet… get a little closer to know more about me 😏…</p><p>👉 Until then, feel free to explore my professional achievements, skills, and projects! 🚀</p>"
 		}
