@@ -1,0 +1,119 @@
+/* Define variables */
+:root {
+ --primary: #11998e;
+ --secondary: #38ef7d;
+ --white: #fff;
+ --gray: #9b9b9b;
+}
+
+/* Form group */
+.form__group {
+ position: relative;
+ padding: 15px 0 0;
+ margin-top: 10px;
+ width: 80%;
+}
+
+/* Form field */
+.form__field {
+ font-family: inherit;
+ width: 100%;
+ border: 0;
+ border-bottom: 2px solid var(--gray);
+ outline: 0;
+ font-size: 1.3rem;
+ color: var(--white);
+ padding: 7px 0;
+ background: transparent;
+ transition: border-color 0.2s;
+}
+
+.form__field::placeholder {
+ color: transparent;
+}
+
+.form__field:placeholder-shown ~ .form__label {
+ font-size: 1.3rem;
+ cursor: text;
+ top: 20px;
+}
+
+/* Form label */
+.form__label {
+ position: absolute;
+ top: 0;
+ display: block;
+ transition: 0.2s;
+ font-size: 1rem;
+ color: var(--gray);
+}
+
+/* Form field focus */
+.form__field:focus {
+ padding-bottom: 6px;
+ font-weight: 700;
+ border-width: 3px;
+ border-image: linear-gradient(to right, var(--primary), var(--secondary));
+ border-image-slice: 1;
+}
+
+/* Reset input */
+.form__field:required,
+.form__field:invalid {
+ box-shadow: none;
+}
+
+form {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+textarea {
+ border-radius: 5px;
+ padding: 7px;
+ resize: none;
+ width: 80%;
+ height: 15vh;
+ margin: auto;
+ background-color: transparent;
+ color: white;
+ font-size: 1.2rem;
+ transition: all 0.5s ease-in-out;
+ font-family: "Poppins";
+ outline: none;
+}
+
+textarea:focus {
+ border: 1px solid #37ff8b;
+ -webkit-box-shadow: 0px 0px 86px -15px rgba(55, 255, 139, 1);
+ -moz-box-shadow: 0px 0px 86px -15px rgba(55, 255, 139, 1);
+ box-shadow: 0px 0px 86px -15px rgba(55, 255, 139, 1);
+}
+
+form button {
+ padding: 10px 20px;
+ background-color: #37ff8b;
+ border-radius: 10px;
+ width: 50%;
+ font-size: 18px;
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+ outline: none;
+ border: none;
+}
+
+form button:hover {
+ background-color: white;
+ color: #37ff8b;
+ border-radius: 20px;
+}
+form button:active {
+ scale: 0.7;
+}
+#number::-webkit-outer-spin-button,
+#number::-webkit-inner-spin-button {
+ display: none;
+}

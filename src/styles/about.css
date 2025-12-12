@@ -1,0 +1,86 @@
+footer {
+ /* border: 1px solid red; */
+ overflow: hidden;
+ /* height: 50vh; */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ width: 100%;
+ /* flex-direction: column; */
+}
+
+.aboutme {
+ width: 50%;
+ /* border: 1px solid red; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 50px;
+}
+
+.socials {
+ width: 50vh;
+ /* border: 1px solid red; */
+}
+
+.aboutme ul li {
+ padding: 5px;
+}
+
+@media (max-width: 768px) {
+ .aboutme {
+  text-align: center;
+  width: 100%;
+  padding: 30px;
+ }
+
+ .socials {
+  text-align: center;
+  width: 100%;
+ }
+
+ footer {
+  justify-content: center;
+  align-items: center;
+ }
+
+ .blob {
+  opacity: 1;
+  width: 220px;
+ }
+
+ .socials ul li {
+  text-align: center;
+  margin: auto !important;
+ }
+
+ .socials ul li i {
+  margin: 20px 20px !important;
+ }
+}
+
+.socials ul {
+ list-style: none;
+ display: flex;
+ justify-content: start;
+}
+
+.socials ul li i {
+ padding: 5px;
+ transition: all 0.3s ease-in-out;
+ cursor: pointer;
+ margin: 15px 15px 0px 0px;
+ font-size: 30px;
+}
+
+.location {
+ display: flex;
+ flex-direction: column;
+ margin: 10px;
+ font-size: 18px;
+}
+
+.location i {
+ margin: 20px 0px 20px 0px;
+}
