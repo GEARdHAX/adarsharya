@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
-const API_KEY = "AIzaSyAC1TaSOHtgJzrFoIwwjK5E9Vtuc75ouJM";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 const MODEL = "gemini-2.5-flash-lite";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
 
