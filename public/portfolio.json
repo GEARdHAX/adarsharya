@@ -23,6 +23,7 @@
 	"skills": {
 		"languages_frameworks": [
 			"JavaScript (ES6+)",
+			"TypeScript",
 			"Python",
 			"C",
 			"C++",
@@ -51,6 +52,7 @@
 		"iot_embedded_systems": [
 			"Arduino",
 			"ESP32",
+			"ESP8266",
 			"DHT11",
 			"Ultrasonic sensor",
 			"Air Quality sensor"
@@ -98,14 +100,33 @@
 			"responsibilities": [
 				"Fixed responsive design issues using CSS Flexbox/Grid and media queries.",
 				"Integrated frontend with backend APIs using Fetch/Axios and handled CORS errors.",
-				"Improved performance and page load speed with React optimizations (useMemo, useCallback).",
-				"Enhanced UI/UX with form validation, error handling, modals, alerts, and loaders.",
-				"Implemented JWT authentication flows for secure login/logout and protected routes.",
-				"Debugged and tested JavaScript/React components for smooth interactions."
+				"Improved performance and page load speed with React optimizations.",
+				"Implemented JWT authentication flows.",
+				"Debugged and tested React components."
+			]
+		},
+		{
+			"role": "Frontend / MERN Developer Intern",
+			"company": "CarbonFox",
+			"duration": "Nov 2025 – Jan 2026",
+			"responsibilities": [
+				"Developed scalable frontend features using React.js with clean component architecture.",
+				"Integrated REST APIs built with Node.js and Express.js.",
+				"Implemented JWT-based authentication and protected routes.",
+				"Optimized UI performance using React hooks and React Query.",
+				"Collaborated in a fast-paced startup environment using Git/GitHub."
 			]
 		}
 	],
 	"projects": [
+		{
+			"name": "Chattr – Real-Time Chat & Video Conferencing App",
+			"description": "Full-stack MERN real-time messaging and video conferencing platform using React, Redux, Node.js, Express, Socket.IO, and WebRTC/Mediasoup for peer-to-peer and group communication.",
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/chattr",
+				"Deployed": "https://chattrapp-auta.onrender.com/login"
+			}
+		},
 		{
 			"name": "Smart Electric Meter using Machine Learning",
 			"description": "Web app using Python, Flask, Streamlit with ML models to predict appliance electricity usage and estimate bills in real time.",
@@ -121,36 +142,28 @@
 			}
 		},
 		{
-			"name": "IoT-based Automatic Irrigation System & Automatic Door Locking System",
-			"description": "IoT systems using Arduino and RFID technology for automation."
-		},
-		{
-			"name": "Home Automation System",
-			"description": "Smart home system using ESP32, Blynk, and sensors (DHT11, ultrasonic, humidity, air quality) for monitoring and remote control."
-		},
-		{
-			"name": "Developers Book",
-			"description": "Social networking platform for developers using MERN stack, JWT authentication, REST APIs, and responsive UI."
-		},
-		{
-			"name": "Notebook App with Google OAuth & MongoDB Atlas",
-			"description": "Secure MERN-based note-taking app with Google OAuth, JWT auth, and OTP login. Real-time note management, deployed on Render.",
-			"links": {
-				"Deployed": "https://notebookappoauth-1.onrender.com/"
-			}
-		},
-		{
 			"name": "CropGenie - AI Farming Assistant",
-			"description": "AI solution for real-time pest and disease detection using a YOLOv8 model, supported by a Python/Flask backend for crop health analysis and intelligent farming suggestions.",
+			"description": "AI solution for real-time pest and disease detection using a YOLOv8 model with a Flask backend.",
 			"links": {
 				"GitHub": "https://github.com/GEARdHAX/cropgenie"
 			}
 		},
 		{
+			"name": "Home Automation System",
+			"description": "Smart home system using ESP32, Blynk, and sensors for monitoring and remote control."
+		},
+		{
 			"name": "Tantra - End-to-End IoT Smart Farming System",
-			"description": "End-to-end IoT system using Arduino/ESP8266 for farm automation. Engineered a Node.js backend with WebSockets to stream live sensor data to a React dashboard for automated irrigation control.",
+			"description": "IoT farming system with Arduino/ESP8266, Node.js backend, WebSockets, and a real-time React dashboard.",
 			"links": {
 				"GitHub": "https://github.com/GEARdHAX/tantra"
+			}
+		},
+		{
+			"name": "Notebook App with Google OAuth & MongoDB Atlas",
+			"description": "Secure MERN note-taking app with Google OAuth, JWT auth, OTP login, and real-time note management.",
+			"links": {
+				"Deployed": "https://notebookappoauth-1.onrender.com/"
 			}
 		}
 	],
