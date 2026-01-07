@@ -1,0 +1,273 @@
+{
+	"name": "Adarsh Arya",
+	"age": 19,
+	"location": "Bangalore, India",
+	"title": "MERN Stack Developer | Aspiring ML Engineer",
+	"summary": "I’m a Bachelor of Engineering student in Electronics and Instrumentation at Dayananda Sagar College of Engineering (EIE’27). I specialize in MERN stack development and enjoy building scalable, production-ready web applications. Alongside full-stack development, I actively work with machine learning, IoT systems, and microcontrollers, combining software and hardware solutions. Currently, I am learning System Design to build scalable, real-world systems.",
+	"contact": {
+		"phone": "+91 73629 73003",
+		"email": "adarsharya2911@gmail.com",
+		"portfolio": "https://adarsharya.vercel.app",
+		"linkedin": "https://www.linkedin.com/in/adarsharya2911/",
+		"github": "https://github.com/GEARdHAX",
+		"instagram": "https://www.instagram.com/gearhax_yt"
+	},
+
+	"top_skills": ["TypeScript", "React Query", "API Integration"],
+
+	"skills": {
+		"languages_and_frameworks": [
+			"JavaScript (ES6+)",
+			"TypeScript",
+			"Python",
+			"C",
+			"C++",
+			"React.js",
+			"Node.js",
+			"Express.js",
+			"Next.js",
+			"Flask",
+			"Streamlit"
+		],
+		"databases": ["MongoDB", "MySQL"],
+		"web_and_app_development": [
+			"MERN Stack",
+			"REST APIs",
+			"JWT Authentication",
+			"Firebase Authentication",
+			"Responsive UI (Tailwind CSS, Figma)",
+			"WebSockets",
+			"React Query"
+		],
+		"ai_ml_libraries_tools": [
+			"scikit-learn",
+			"pandas",
+			"NumPy",
+			"joblib",
+			"OpenCV (basics)"
+		],
+		"iot_and_embedded_systems": [
+			"Arduino",
+			"ESP32",
+			"ESP8266",
+			"Sensor Integration (DHT11, Ultrasonic, Air Quality)"
+		],
+		"tools_and_platforms": [
+			"Git & GitHub",
+			"Postman",
+			"VS Code",
+			"PyCharm",
+			"MongoDB Compass",
+			"MongoDB Atlas",
+			"Render",
+			"Figma"
+		],
+		"other_skills": [
+			"Debugging & Problem Solving",
+			"API Integration",
+			"SEO Basics",
+			"Digital Marketing",
+			"Freelance Video Editing (Adobe Premiere Pro, After Effects)"
+		]
+	},
+
+	"education": {
+		"college": "Dayananda Sagar College of Engineering, Bangalore",
+		"degree": "Bachelor of Engineering (Electronics and Instrumentation)",
+		"duration": "2023 - 2027",
+		"cgpa": 8.8
+	},
+
+	"employment": [
+		{
+			"role": "React Developer Intern",
+			"company": "CarbonFox",
+			"location": "Bangalore, India",
+			"duration": "Nov 2025 – Present",
+			"responsibilities": [
+				"Built production-ready frontend features using React (TSX) and TypeScript.",
+				"Implemented React Query mutations for efficient server-state management and API interactions.",
+				"Followed scalable, modular folder structures inspired by Next.js.",
+				"Developed responsive UI components with strong focus on usability and cross-device compatibility.",
+				"Collaborated with team members to integrate APIs and deliver end-to-end functionality.",
+				"Adopted best practices for maintainable, real-world React applications."
+			]
+		},
+		{
+			"role": "Web Developer Intern",
+			"company": "Vault of Codes",
+			"location": "Remote",
+			"duration": "Aug 2025 – Sep 2025",
+			"responsibilities": [
+				"Built responsive and interactive UIs using React.js.",
+				"Integrated Node.js and Express.js APIs into frontend components.",
+				"Implemented secure authentication flows using Passport.js.",
+				"Managed dynamic MongoDB data for real-time content rendering.",
+				"Worked on real-world projects with focus on performance and UX."
+			]
+		},
+		{
+			"role": "Video Editing Intern (Paid Probation)",
+			"company": "skywardproducts.in",
+			"location": "Remote",
+			"duration": "Sep 2025 – Oct 2025",
+			"responsibilities": [
+				"Edited short-form content for Instagram Reels, YouTube Shorts, and Facebook.",
+				"Extracted high-engagement highlights from long-form video content.",
+				"Added captions, transitions, overlays, and brand-consistent visuals.",
+				"Handled multiple video projects while meeting strict deadlines.",
+				"Collaborated closely with the creative team to align content with brand identity."
+			]
+		}
+	],
+
+	"projects": [
+		{
+			"name": "Chattr – Real-Time Chat & Video Conferencing App",
+			"category": "Full Stack / MERN",
+			"description": "A full-stack MERN real-time messaging and video conferencing application using React, Redux, Node.js, Express, Socket.IO, and WebRTC/Mediasoup for peer-to-peer and group communication.",
+			"tech_stack": [
+				"React",
+				"Redux",
+				"Node.js",
+				"Express.js",
+				"Socket.IO",
+				"WebRTC",
+				"Mediasoup",
+				"MongoDB"
+			],
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/chattr",
+				"Deployed": "https://chattrapp-auta.onrender.com/login"
+			}
+		},
+		{
+			"name": "Smart Electric Meter using Machine Learning",
+			"category": "Machine Learning / Web",
+			"description": "ML-powered web application built with Python, Flask, and Streamlit to predict appliance electricity usage and estimate real-time electricity bills.",
+			"tech_stack": ["Python", "Flask", "Streamlit", "scikit-learn"],
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/smart_electric_meter"
+			}
+		},
+		{
+			"name": "Foodora – Recipe Search App",
+			"category": "Frontend / React",
+			"description": "A responsive recipe search application with dynamic sidebar, favorites stored in localStorage, and vegetarian filtering using Spoonacular API.",
+			"tech_stack": [
+				"React",
+				"React Router",
+				"Tailwind CSS",
+				"Spoonacular API"
+			],
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/foodora"
+			}
+		},
+		{
+			"name": "CropGenie – AI Farming Assistant",
+			"category": "AI / IoT",
+			"description": "An AI-based farming assistant using YOLOv8 for real-time pest and disease detection, supported by a Flask backend for crop health analysis.",
+			"tech_stack": ["Python", "YOLOv8", "Flask", "OpenCV"],
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/cropgenie"
+			}
+		},
+		{
+			"name": "Tantra – End-to-End IoT Smart Farming System",
+			"category": "IoT / Full Stack",
+			"description": "End-to-end IoT smart farming system using Arduino and ESP8266 with a Node.js backend and WebSockets for real-time sensor data streaming to a React dashboard.",
+			"tech_stack": ["Arduino", "ESP8266", "Node.js", "WebSockets", "React"],
+			"links": {
+				"GitHub": "https://github.com/GEARdHAX/tantra"
+			}
+		},
+		{
+			"name": "Notebook App with Google OAuth & MongoDB Atlas",
+			"category": "MERN",
+			"description": "Secure MERN-based note-taking application with Google OAuth, JWT authentication, OTP login, and real-time note management deployed on Render.",
+			"tech_stack": [
+				"React",
+				"Node.js",
+				"Express.js",
+				"MongoDB Atlas",
+				"Google OAuth",
+				"JWT"
+			],
+			"links": {
+				"Deployed": "https://notebookappoauth-1.onrender.com/"
+			}
+		}
+	],
+
+	"certifications_and_achievements": [
+		{
+			"title": "NPTEL – Machine Learning",
+			"issuer": "NPTEL",
+			"category": "Certification",
+			"description": "Completed an accredited course covering supervised and unsupervised machine learning techniques."
+		},
+		{
+			"title": "Internship in Web Development",
+			"issuer": "Edunet Foundation / AICTE",
+			"category": "Certification",
+			"description": "Hands-on internship focused on frontend development, API integration, and real-world project experience."
+		},
+		{
+			"title": "Ignitia Sensors Enclave 3.0 – 1st Place (Hardware Track)",
+			"issuer": "Ignitia",
+			"category": "Achievement",
+			"description": "Secured first place in a national-level hardware competition for building an innovative IoT-based solution."
+		},
+		{
+			"title": "AI & IoT Systems using STMicroelectronics",
+			"issuer": "STMicroelectronics",
+			"category": "Certification",
+			"description": "Training focused on building AI and IoT systems using STMicroelectronics hardware platforms."
+		}
+	],
+
+	"safety_responses": [
+		{
+			"type": "vulgar",
+			"text": "⚠️ Let’s keep it respectful and professional. I’m happy to talk about my skills, projects, or experience.",
+			"html": "<p>⚠️ Let’s keep it respectful and professional.</p><p>I’m happy to talk about my skills, projects, or experience.</p>"
+		},
+		{
+			"type": "hateful",
+			"text": "⚠️ I don’t engage with hateful or offensive content. Please ask something related to my portfolio or work.",
+			"html": "<p>⚠️ I don’t engage with hateful or offensive content.</p><p>Please ask something related to my portfolio or professional work.</p>"
+		},
+		{
+			"type": "off_topic",
+			"text": "⚠️ I’m designed to answer questions only about my portfolio, skills, projects, and experience.",
+			"html": "<p>⚠️ I’m designed to answer questions only about my portfolio.</p><p>Try asking about my skills, projects, internships, or tech stack.</p>"
+		},
+		{
+			"type": "private_information",
+			"text": "🤫 I keep personal matters private. Feel free to explore my professional journey instead.",
+			"html": "<p>🤫 I keep personal matters private.</p><p>You’re welcome to explore my professional journey, skills, and projects instead. 🚀</p>"
+		},
+		{
+			"type": "income_salary",
+			"text": "💼 Compensation and financial details aren’t shared here. I’m happy to discuss skills and experience.",
+			"html": "<p>💼 Compensation and financial details aren’t shared here.</p><p>I’m happy to discuss my skills, experience, and projects.</p>"
+		}
+	],
+
+	"hobbies": [
+		"Cooking",
+		"Singing",
+		"Gym & Fitness",
+		"Origami / DIY",
+		"Learning Guitar"
+	],
+
+	"future_goals": [
+		"Build my own startup",
+		"Work in a high-impact tech company (MNC or startup)",
+		"Become a strong full-stack and system design engineer",
+		"Maintain an aesthetic and healthy physique",
+		"Become a skilled guitarist"
+	]
+}
