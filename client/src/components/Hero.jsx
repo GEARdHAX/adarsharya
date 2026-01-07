@@ -93,7 +93,8 @@ const Hero = () => {
           className="span-text"
           style={{ color: textColorRef.current }}
         >
-          {dynamicText}
+        <span>&gt;_</span>
+ {dynamicText}
         </span>
         <h1>
           <span className={`cursor ${isBlinking ? 'blinking' : ''}`}></span>

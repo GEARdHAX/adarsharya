@@ -11,7 +11,7 @@ const ProjectCard = ({
   link 
 }) => {
   // Define the base server URL for images
-  const SERVER_URL = 'http://localhost:5000';
+  const SERVER_URL = import.meta.env.VITE_API_URL;
 
   // Helper function to format image sources
   const getFullImgPath = (path) => {

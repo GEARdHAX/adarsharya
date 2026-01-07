@@ -89,6 +89,10 @@ const authenticateToken = (req, res, next) => {
 
 // --- 5. ROUTES ---
 
+app.get('/api/health', (req, res) => {
+    res.send("ok").status(200);
+})
+
 // GET ALL UNIQUE TECH ICONS
 app.get('/api/icons', async (req, res) => {
     try {

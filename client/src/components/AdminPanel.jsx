@@ -8,7 +8,7 @@ import '../styles/admin.css';
 const IconLibraryModal = ({ isOpen, onClose, onSelect }) => {
   const [icons, setIcons] = useState([]);
   const [search, setSearch] = useState('');
-  const SERVER_URL = 'http://localhost:5000'; // Make sure this matches your config
+  const SERVER_URL = import.meta.env.VITE_API_URL; // Make sure this matches your config
 
   useEffect(() => {
     if (isOpen) {
@@ -87,8 +87,8 @@ const AdminPanel = () => {
   const [isLibraryOpen, setIsLibraryOpen] = useState(false);
   const [activeTechIndex, setActiveTechIndex] = useState(null);
 
-  const API_URL = 'http://localhost:5000/api/projects';
-  const SERVER_URL = 'http://localhost:5000'; 
+  const API_URL = import.meta.env.VITE_API_URL+'/api/projects';
+  const SERVER_URL = import.meta.env.VITE_API_URL; 
 
   // Form States
   const [title, setTitle] = useState('');
