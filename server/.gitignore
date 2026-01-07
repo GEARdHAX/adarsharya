@@ -1,0 +1,36 @@
+# --- Dependencies ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment / Secrets ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Local Storage / Uploads ---
+# Even though you use Cloudinary, keep this to ignore local temp files
+uploads/
+public/uploads/
+
+# --- Testing ---
+# Ignore your local Cloudinary/API test scripts
+test-cloudinary.js
+upload-local.js
+test.js
+
+# --- OS Related ---
+.DS_Store
+Thumbs.db
+
+# --- Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
